@@ -11,31 +11,31 @@
 
 
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-IDR_CLICK          WAVE           ".\\asset\\click.wav"
+IDR_CLICK          WAVE           ".\\assets\\click.wav"
 
 
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-IDR_CLICK2         WAVE           ".\\asset\\click2.wav"
+IDR_CLICK2         WAVE           ".\\assets\\click2.wav"
 
 
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-IDR_ERROR          WAVE           ".\\asset\\error.wav"
+IDR_ERROR          WAVE           ".\\assets\\error.wav"
 
 
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-IDR_LOSS           WAVE           ".\\asset\\loss.wav"
+IDR_LOSS           WAVE           ".\\assets\\loss.wav"
 
 
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-IDR_RESET          WAVE           ".\\asset\\reset.wav"
+IDR_RESET          WAVE           ".\\assets\\reset.wav"
 
 
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-IDR_WIN            WAVE           ".\\asset\\win.wav"
+IDR_WIN            WAVE           ".\\assets\\win.wav"
 
 
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
-IDR_DRAW            WAVE           ".\\asset\\draw.wav"
+IDR_DRAW            WAVE           ".\\assets\\draw.wav"
 
 
 
