@@ -21,7 +21,7 @@ This is a simple gui TicTacToe game implemented in C++.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/TicTacToe.git
+    git clone https://github.com/AboSohyle/TicTacToe.git
     ```
 2. Navigate to the project directory:
     ```sh
