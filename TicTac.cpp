@@ -38,7 +38,7 @@ TicTac::~TicTac()
 
 LRESULT CALLBACK TicTac::GameProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
-    TicTac *game = (TicTac *)GetWindowLongPtr(hWnd, GWLP_USERDATA);
+    TicTac *game = reinterpret_cast<TicTac *>(GetWindowLongPtr(hWnd, GWLP_USERDATA));
 
     switch (msg)
     {
@@ -47,7 +47,7 @@ LRESULT CALLBACK TicTac::GameProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lPa
         CREATESTRUCT *pcs = (CREATESTRUCT *)lParam;
         game = (TicTac *)pcs->lpCreateParams;
         game->window = hWnd;
-        SetWindowLongPtr(hWnd, GWLP_USERDATA, (LONG_PTR)pcs->lpCreateParams);
+        SetWindowLongPtr(hWnd, GWLP_USERDATA, reinterpret_cast<LONG_PTR>(game));
         return TRUE;
     }
 
@@ -358,7 +358,7 @@ VOID TicTac::DrawBoard()
         SafeRelease(&render);
         SafeRelease(&brush);
     }
-    render->EndDraw();
+  
 }
 
 VOID TicTac::UpdateFromTo(int i, Direction dir)
