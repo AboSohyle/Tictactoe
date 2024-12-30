@@ -2,8 +2,6 @@
 
 This is a simple gui TicTacToe game implemented in C++.
 
-![Alt text](screenshot.png)
-
 ## Features
 
 - Minimax algorithm implementation with Alpha-Beta Pruning mode
@@ -21,7 +19,7 @@ This is a simple gui TicTacToe game implemented in C++.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/AboSohyle/TicTacToe.git
+    git clone https://github.com/yourusername/TicTacToe.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -41,14 +39,13 @@ Run the executable:
 
 Use left click to play or right click to reset the game.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
+## Contributing
 
-For any questions or suggestions, please open an issue.
+Contributions are welcome! Please open an issue or submit a pull request.
+
+Enjoy the game!
