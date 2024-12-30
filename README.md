@@ -2,6 +2,9 @@
 
 This is a simple gui TicTacToe game implemented in C++.
 
+![Alt text](screenshot.png)
+
+
 ## Features
 
 - Minimax algorithm implementation with Alpha-Beta Pruning mode
